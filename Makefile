@@ -1,5 +1,6 @@
 install:
 	poetry install
+	poetry add prompt
 
 brain-games:
 	poetry run brain-games
