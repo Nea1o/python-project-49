@@ -1,5 +1,6 @@
 import random
 from brain_games.cli import welcome_user
+import prompt
 
 
 def main():
@@ -10,11 +11,11 @@ def main():
     while count < 3:
         number = random.randint(1, 100)
         print(f'Question: {number}')
-        answer = input()
+        answer = prompt.string("your answer? ")
         if number % 2 == 0 and str(answer).lower() == 'yes':
-            print("correct")
+            print('correct')
         elif number % 2 == 1 and str(answer).lower() == 'no':
-            print("correct")
+            print('correct')
         elif number % 2 == 0 and str(answer).lower() != 'yes':
             result = f"'{answer}' is wrong answer ;(. Correct answer was 'yes'"
             break
