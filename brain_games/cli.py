@@ -8,5 +8,16 @@ def welcome_user():
     return name
 
 
+def comparison_of_answer(answer, true_answer, name):
+    if answer == true_answer:
+        print('correct')
+        return 'correct'
+    else:
+        print(f"'{answer}' is wrong answer ;(. Correct answer was "
+              f"'{true_answer}'")
+        print(f"Let's try again, {name}!")
+        return ''
+
+
 if __name__ == "__main__":
     welcome_user()

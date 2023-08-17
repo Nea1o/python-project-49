@@ -1,5 +1,6 @@
 import random
 from brain_games.cli import welcome_user
+from brain_games.cli import comparison_of_answer
 import prompt
 
 
@@ -12,20 +13,18 @@ def main():
         number = random.randint(1, 100)
         print(f'Question: {number}')
         answer = prompt.string("your answer? ")
-        if number % 2 == 0 and str(answer).lower() == 'yes':
-            print('correct')
-        elif number % 2 == 1 and str(answer).lower() == 'no':
-            print('correct')
-        elif number % 2 == 0 and str(answer).lower() != 'yes':
-            result = f"'{answer}' is wrong answer ;(. Correct answer was 'yes'"
-            break
+        if number % 2 == 0:
+            true_answer = 'yes'
         else:
-            result = f"'{answer}' is wrong answer ;(. Correct answer was 'no'"
+            true_answer = 'no'
+        result = comparison_of_answer(answer, true_answer, name)
+        if result == 'correct':
+            count += 1
+        else:
             break
-        if count == 2:
+        if count == 3:
             result = f"Congratulations, {name}!"
             break
-        count += 1
     print(result)
 
 
