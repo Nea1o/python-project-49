@@ -10,15 +10,18 @@ def main():
     count = 0
     result = ""
     while count < 3:
-        num_1 = random.randint(1, 100)
-        num_2 = random.randint(1, 100)
-        print(f'Question: {num_1} {num_2}')
+        num_begin = random.randint(1, 20)
+        step = random.randint(1, 10)
+        len_progression = random.randint(4, 14)
+        list_question = [num_begin]
+        for i in range(len_progression):
+            list_question.append(list_question[-1] + step)
+        secret_numer = random.randint(0, len_progression)
+        true_answer = str(list_question[secret_numer])
+        list_question[secret_numer] = ".."
+        print('Question: ', end="")
+        print(*list_question)
         answer = prompt.string("your answer? ")
-        min_value = min([num_1, num_2])
-        for elem in list(range(min_value + 1))[::-1]:
-            if num_1 % elem == 0 and num_2 % elem == 0:
-                true_answer = str(elem)
-                break
         result = comparison_of_answer(answer, true_answer, name)
         if result == 'correct':
             count += 1

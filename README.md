@@ -4,3 +4,4 @@
 [![Static Badge](https://img.shields.io/badge/records-brain_even-blue)](https://asciinema.org/a/3HijhIAPJCQAEZhfd2LzgjZXD)
 [![Static Badge](https://img.shields.io/badge/records-brain_calc-blue)](https://asciinema.org/a/8CgESU1MCkJjnm8qJi8YQIJwx)
 [![Static Badge](https://img.shields.io/badge/records-brain_gcd-blue)](https://asciinema.org/a/NAvMdoHm27T7XBxHJXNsAnYbZ)
+[![Static Badge](https://img.shields.io/badge/records-brain_progression-blue)](https://asciinema.org/a/KVtU7zQJzomKSuBTfiBB7zlsu)
