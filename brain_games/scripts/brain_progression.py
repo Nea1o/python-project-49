@@ -6,7 +6,7 @@ import prompt
 
 def main():
     name = welcome_user()
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
     count = 0
     result = ""
     while count < 3:
