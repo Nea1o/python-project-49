@@ -23,7 +23,7 @@ def main():
         print(*list_question)
         answer = prompt.string("your answer? ")
         result = comparison_of_answer(answer, true_answer, name)
-        if result == 'correct':
+        if result == 'Correct!':
             count += 1
         else:
             break

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b86ec80-b3da-4763-abe0-698cf7123462" name="Changes" comment="6th task completed">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2U6UrawcwgPw7O4yU77wJ11liUl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/neal/Рабочий стол/Study/python-project-49&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b86ec80-b3da-4763-abe0-698cf7123462" name="Changes" comment="" />
+      <created>1692259724282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692259724282</updated>
+    </task>
+    <task id="LOCAL-00001" summary="6th task completed">
+      <option name="closed" value="true" />
+      <created>1692274882055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692274882055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6th task completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th task completed" />
+  </component>
+</project>
