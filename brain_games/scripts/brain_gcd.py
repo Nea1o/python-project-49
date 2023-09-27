@@ -13,7 +13,7 @@ def main():
         num_1 = random.randint(1, 100)
         num_2 = random.randint(1, 100)
         print(f'Question: {num_1} {num_2}')
-        answer = prompt.string("your answer? ")
+        answer = prompt.string("Your answer? ")
         min_value = min([num_1, num_2])
         for elem in list(range(min_value + 1))[::-1]:
             if num_1 % elem == 0 and num_2 % elem == 0:

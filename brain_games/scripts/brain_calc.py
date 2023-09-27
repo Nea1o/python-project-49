@@ -21,7 +21,7 @@ def main():
         else:
             true_answer = str(num_1 * num_2)
         print(f'Question: {num_1} {formulas} {num_2}')
-        answer = prompt.string("your answer? ")
+        answer = prompt.string("Your answer? ")
         result = comparison_of_answer(answer, true_answer, name)
         if result == 'Correct!':
             count += 1

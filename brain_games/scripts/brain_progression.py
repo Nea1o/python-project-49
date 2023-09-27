@@ -21,7 +21,7 @@ def main():
         list_question[secret_numer] = ".."
         print('Question: ', end="")
         print(*list_question)
-        answer = prompt.string("your answer? ")
+        answer = prompt.string("Your answer? ")
         result = comparison_of_answer(answer, true_answer, name)
         if result == 'Correct!':
             count += 1

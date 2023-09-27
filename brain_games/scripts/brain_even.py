@@ -12,7 +12,7 @@ def main():
     while count < 3:
         number = random.randint(1, 100)
         print(f'Question: {number}')
-        answer = prompt.string("your answer? ")
+        answer = prompt.string("Your answer? ")
         if number % 2 == 0:
             true_answer = 'yes'
         else:
