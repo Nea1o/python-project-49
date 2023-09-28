@@ -19,5 +19,9 @@ def comparison_of_answer(answer, true_answer, name):
         return ''
 
 
+def number_of_attempts(counter=3):
+    return counter
+
+
 if __name__ == "__main__":
     welcome_user()
