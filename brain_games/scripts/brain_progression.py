@@ -1,4 +1,5 @@
-from brain_games.cli import welcome_user, number_of_attempts, comparison_of_answer
+from brain_games.cli import (welcome_user, number_of_attempts,
+                             comparison_of_answer)
 import random
 import prompt
 
@@ -24,8 +25,9 @@ def main():
 
 
 def game_step():
-    """игра выдающая случайную прогрессию с одним неизвестным числом с случайным шагом от 1 до 10,
-         и случайной длинной прогрессии от 4 до 14 чисел"""
+    """игра выдающая случайную прогрессию с одним
+     неизвестным числом с случайным шагом от 1 до 10,
+      и случайной длинной прогрессии от 4 до 14 чисел"""
     num_begin = random.randint(1, 20)
     step = random.randint(1, 10)
     len_progression = random.randint(4, 14)

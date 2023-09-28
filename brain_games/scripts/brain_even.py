@@ -1,4 +1,5 @@
-from brain_games.cli import welcome_user, number_of_attempts, comparison_of_answer
+from brain_games.cli import (welcome_user, number_of_attempts,
+                             comparison_of_answer)
 import random
 import prompt
 
