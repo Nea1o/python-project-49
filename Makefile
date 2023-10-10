@@ -31,3 +31,6 @@ package-install:
 
 lint:
 	poetry run flake8 brain_games
+
+uninstall:
+	python3 -m pip uninstall dist/*.whl
