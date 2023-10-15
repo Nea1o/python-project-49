@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b86ec80-b3da-4763-abe0-698cf7123462" name="Changes" comment="6th task completed">
-      <change afterPath="$PROJECT_DIR$/brain_games/engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/even.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/gcd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/prime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/progression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/steps_games.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +55,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/brain_games/scripts" />
       <recent name="$PROJECT_DIR$/brain_games" />
+      <recent name="$PROJECT_DIR$/brain_games/scripts" />
       <recent name="$PROJECT_DIR$/brain_games/games" />
     </key>
   </component>

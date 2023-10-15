@@ -1,5 +1,9 @@
 from brain_games.cli import welcome_user
 
 
-def brain_game():
+def main():
     welcome_user()
+
+
+if __name__ == "__main__":
+    main()

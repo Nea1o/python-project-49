@@ -1,25 +1,10 @@
-from brain_games.cli import welcome_user
-from brain_games.engine import (number_of_attempts, comparison_of_answer)
-from brain_games.steps_games import game_step_prime
-import prompt
+import random
 
 
-def prime_game():
-    # игра которая отвечает на вопрос простое число или нет
-    name = welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    count = 0
-    result = ""
-    COUNT_TRY = number_of_attempts()
-    while count < COUNT_TRY:
-        true_answer = game_step_prime()
-        answer = prompt.string("Your answer? ")
-        result = comparison_of_answer(answer, true_answer, name)
-        if result == 'Correct!':
-            count += 1
-        else:
-            break
-        if count == COUNT_TRY:
-            result = f"Congratulations, {name}!"
-            break
-    print(result)
+def game_logic_prime():
+    number = random.randint(1, 50)
+    print(f'Question: {number}')
+    for i in range(1, number + 1):
+        if number % i == 0 and i != 1 and i != number:
+            return 'no'
+    return 'yes'
