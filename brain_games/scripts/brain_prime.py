@@ -4,7 +4,7 @@ from brain_games.games.prime import game_logic_prime
 
 
 def main():
-    name = welcome_user(quest="Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    name = welcome_user(quest='Answer "yes" if given number is prime. Otherwise answer "no".')
     cycle(game_logic_prime, name)
 
 
