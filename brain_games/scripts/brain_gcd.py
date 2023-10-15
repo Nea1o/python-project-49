@@ -4,7 +4,8 @@ from brain_games.games.gcd import game_logic_gcd
 
 
 def main():
-    name = welcome_user(quest="Find the greatest common divisor of given numbers.")
+    name = welcome_user(quest="Find the greatest "
+                              "common divisor of given numbers.")
     cycle(game_logic_gcd, name)
 
 

@@ -4,7 +4,8 @@ from brain_games.games.even import game_logic_even
 
 
 def main():
-    name = welcome_user(quest='Answer "yes" if the number is even, otherwise answer "no".')
+    name = welcome_user(quest='Answer "yes" if the number'
+                              ' is even, otherwise answer "no".')
     cycle(game_logic_even, name)
 
 
