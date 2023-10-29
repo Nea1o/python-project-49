@@ -1,35 +1,19 @@
 import prompt
 
 
-def number_of_attempts(counter=3):
-    return counter
-
-
-def comparison_of_answer(answer, true_answer, name):
-    if answer == true_answer:
-        print('Correct!')
-        return 'Correct!'
-    else:
-        print(f"{answer} is wrong answer ;(. Correct answer was "
-              f"{true_answer}.")
-        print(f"Let's try again, {name}!")
-        return ''
-
-
-def cycle(logic_game, name_user):
+def cycle(execution_of_logic_game, name_user):
     name = name_user
-    result = ""
-    count = 0
-    count_try = number_of_attempts()
-    while count < count_try:
-        true_answer = logic_game()
+    for count in range(1, COUNTER + 1):
+        true_answer = execution_of_logic_game()
         answer = prompt.string("Your answer? ")
-        result = comparison_of_answer(answer, true_answer, name)
-        if result == 'Correct!':
-            count += 1
-        else:
-            break
-        if count == count_try:
-            result = f"Congratulations, {name}!"
-            break
-    print(result)
+        if answer != true_answer:
+            print(f"{answer} is wrong answer ;(. Correct answer was "
+                  f"{true_answer}.")
+            print(f"Let's try again, {name}!")
+            return ''
+        print('Correct!')
+    print(f"Congratulations, {name}!")
+    return ""
+
+
+COUNTER = 3
