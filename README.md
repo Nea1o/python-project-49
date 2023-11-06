@@ -4,7 +4,13 @@
 [![Actions Status](https://github.com/Nea1o/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Nea1o/python-project-49/actions)
 [![Code Climate](https://img.shields.io/badge/check-maintainability-green)](https://codeclimate.com/github/Nea1o/python-project-49)
 
-### Здравствуйте, этот проект называется  "Brain-Games" в нём набор из несколько игр.
+### Здравствуйте, этот проект называется  "Brain-Games" это набор из несколько игр.
+### Для устновки данного проекта необходимо его скачать с
+https://github.com/Nea1o/python-project-49 .
+### В данном проекте используются такие зависимости как:
+### Framework: flake8;
+### Библиотеки: prompt.
+
 ### Демонстрация установки и запуска игр показаны ниже:
 [![Static Badge](https://img.shields.io/badge/setup-brain_games-red)](https://asciinema.org/a/oe1jvHDDSnenRam2tDxVRuWuI)
 
