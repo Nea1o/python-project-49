@@ -2,9 +2,17 @@
 
 import random
 
+QUEST = "What number is missing in the progression?"
+MIN_NUM_BEGIN = 1
+MAX_NUM_BEGIN = 20
+STEP_MIN = 1
+STEP_MAX = 10
+LEN_MIN = 5
+LEN_MAX = 14
+MIN_SECRET_NUM = 0
 
-def executing_cycle_progression():
-    print(QUEST)
+
+def generating_game_progression():
     num_begin = random.randint(MIN_NUM_BEGIN, MAX_NUM_BEGIN)
     step = random.randint(STEP_MIN, STEP_MAX)
     len_progression = random.randint(LEN_MIN, LEN_MAX)
@@ -21,13 +29,3 @@ def get_progression(num_begin, step, len_progression):
     for i in range(len_progression):
         lst.append(lst[-1] + step)
     return lst
-
-
-QUEST = "What number is missing in the progression?"
-MIN_NUM_BEGIN = 1
-MAX_NUM_BEGIN = 20
-STEP_MIN = 1
-STEP_MAX = 10
-LEN_MIN = 5
-LEN_MAX = 14
-MIN_SECRET_NUM = 0

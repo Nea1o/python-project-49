@@ -2,20 +2,20 @@
 
 import prompt
 
+COUNTER = 3
 
-def cycle(execution_of_logic_game, name_user):
+
+def run_game(get_answer_and_question, quest, name_user):
     name = name_user
-    for count in range(1, COUNTER + 1):
-        true_answer = execution_of_logic_game()
+    print(quest)
+    for count in range(COUNTER):
+        true_answer = get_answer_and_question()
         answer = prompt.string("Your answer? ")
         if answer != true_answer:
             print(f"{answer} is wrong answer ;(. Correct answer was "
                   f"{true_answer}.")
             print(f"Let's try again, {name}!")
-            return ''
+            return
         print('Correct!')
     print(f"Congratulations, {name}!")
-    return ""
-
-
-COUNTER = 3
+    return

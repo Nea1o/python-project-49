@@ -1,13 +1,13 @@
 #!/usr/bin/python
 
 from brain_games.cli import welcome_user
-from brain_games.engine import cycle
-from brain_games.games.gcd import executing_cycle_gcd
+from brain_games.engine import run_game
+from brain_games.games.gcd import generating_game_gcd, QUEST
 
 
 def main():
     name = welcome_user()
-    cycle(executing_cycle_gcd, name)
+    run_game(generating_game_gcd, QUEST, name)
 
 
 if __name__ == "__main__":
