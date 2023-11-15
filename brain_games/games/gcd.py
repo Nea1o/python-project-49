@@ -8,11 +8,10 @@ MIN_NUM = 1
 MAX_NUM = 30
 
 
-def generating_game_gcd():
+def generate_game_gcd():
     num_1 = random.randint(MIN_NUM, MAX_NUM)
     num_2 = random.randint(MIN_NUM, MAX_NUM)
-    print(f'Question: {num_1} {num_2}')
-    return get_answer_gcd(num_1, num_2)
+    return get_answer_gcd(num_1, num_2), f'Question: {num_1} {num_2}'
 
 
 def get_answer_gcd(num1, num2):

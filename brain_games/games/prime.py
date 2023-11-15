@@ -8,12 +8,11 @@ MIN_NUM = 1
 MAX_NUM = 50
 
 
-def generating_game_prime():
+def generate_game_prime():
     number = random.randint(MIN_NUM, MAX_NUM)
-    print(f'Question: {number}')
     if is_prime(number):
-        return "yes"
-    return "no"
+        return "yes", f'Question: {number}'
+    return "no", f'Question: {number}'
 
 
 def is_prime(number):
