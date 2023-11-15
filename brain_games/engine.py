@@ -7,7 +7,7 @@ COUNTER = 3
 
 def run_game(get_answer_and_question, quest, name):
     print(quest)
-    for count in range(COUNTER):
+    for _ in range(COUNTER):
         true_answer, question = get_answer_and_question()
         print(question)
         answer = prompt.string("Your answer? ")
